@@ -2,6 +2,16 @@
 <html>
 
 <head>
+   <script>
+   window.digitalData = window.digitalData || {};
+   window.digitalData.page = {
+	pageInfo: {
+	    pageName: document.title,
+	    pageUrl: window.location.href,
+	    pagePath: window.location.pathname	
+	}
+};
+</script>
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
